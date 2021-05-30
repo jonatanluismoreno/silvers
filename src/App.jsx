@@ -2,20 +2,22 @@ import React, { useState } from 'react'
 import './App.css'
 
 import Header from "./components/Header";
-import Banner from "./components/Banner"
+import Background from "./components/Background";
+import Main from "./components/Main"
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
   <div className="App">
     <Header/>
-    <Banner/>
+    
+    <Background/>
+    <Main/>
   </div>
     
-  )
+  ) 
 }
 
 

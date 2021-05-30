@@ -1,10 +1,10 @@
 import React from 'react'
 
-import './Main.css'
+import './styles.css'
 
 export default function Main() {
     return (
-        <div>
+        <div className="Div-main">
             
         </div>
     )

@@ -1,4 +1,5 @@
 
+
 .nav-bar {
     height: 70px;
     background: #262626;
@@ -72,6 +73,10 @@ nav ul li ul li {
 nav ul li ul li a {
     padding: 15px;
     line-height: 20px;
+}
+
+nav ul li:hover .nav-dropdown{
+    display: flex;
 }
 
 .nav-dropdown {
