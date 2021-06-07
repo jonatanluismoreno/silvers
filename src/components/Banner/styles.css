@@ -1,0 +1,13 @@
+.img-banner {
+    display: inline-block;
+    height: 30vh;
+    width: 110vh;
+    box-sizing: content-box;
+    margin: 4%;
+    opacity: 75%;
+    transition: 1s;
+}
+
+.img-banner:hover {
+    opacity: 100%;
+}

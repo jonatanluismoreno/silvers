@@ -2,7 +2,7 @@
 
 .nav-bar {
     height: 70px;
-    background: #262626;
+    background: #ffffff;
 }
 
 .brand {
@@ -20,7 +20,7 @@
 
 .brand a,
 .brand a:visited {
-    color: #ffffff;
+    color: #d82323;
     text-decoration: none;
 }
 
@@ -49,14 +49,14 @@ nav ul li a:visited {
     display: block;
     padding: 0 20px;
     line-height: 70px;
-    background: #262626;
-    color: #ffffff;
+    background: #ffffff;
+    color: #c54343;
     text-decoration: none;
 }
 
 nav ul li a:hover,
 nav ul li a:visited:hover {
-    background: #2ab1ce;
+    background: #d602ee;
     color: #ffffff;
 }
 
@@ -83,7 +83,7 @@ nav ul li:hover .nav-dropdown{
     position: absolute;
     display: none;
     z-index: 1;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 12px #d602ee;
 }
 
 .nav-mobile {
@@ -91,7 +91,7 @@ nav ul li:hover .nav-dropdown{
     position: absolute;
     top: 0;
     right: 0;
-    background: #262626;
+    background: #6002ee;
     height: 70px;
     width: 70px;
 }

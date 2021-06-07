@@ -33,7 +33,7 @@ export const option = [{
         ],
     },
     {
-        link: "/",
+        link: "/discord",
         name: "Discord",
     },
     {

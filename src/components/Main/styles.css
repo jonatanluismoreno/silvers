@@ -1,25 +1,13 @@
 .Div-main {
-    
-    /* align-items: center;*/
-    
-    /*text-align: center;
-	margin: 0 auto;
-	border: 1px solid #f97200;*/
-    /*width: 190px;
-	padding: 10px;
-    display: flex;
-    justify-content: center;*/
-    
-    /*display: flex;
-    justify-content: center;
-    align-items: center;position: absolute;*/
-    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    height: 10vh;
-    width: 20vh;
-    background:red;
+    display: inline-block;
+    box-sizing: content-box;
+    height: 90vh;
+    width: 120vh;
+    background:#b0b9c4;
     position: absolute;
+    border-radius: 2%;
 }
+
