@@ -1,2 +1,37 @@
 
 
+.jumbotron {
+    padding: 3vw;
+    background-color: blueviolet;
+}
+
+.container-gif {
+    
+    display: inline-block;
+    left: 20vh;
+    width: 20vh;
+    height: 20vh;
+}
+
+.title {
+    font-family:monospace;
+    font-size: 2.7rem;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    font-weight: 400;
+    text-align: center;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    background-color: #828282;
+    border-color: #b5cae1;
+    color: rgb(2, 2, 2);
+    border: 1px solid transparent;
+    display: inline-block;
+}

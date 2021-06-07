@@ -6,7 +6,7 @@ import DiscordFront from '/src/components/DiscordFront';
 
 export default function Discord() {
     return (
-        <div>
+        <div className="front-content">
             <DiscordFront/>
         </div>
     )
